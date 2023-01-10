@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Poppins:ital,wght@0,100;0,200;0,500;0,700;0,800;1,100&display=swap');
+
+*{
+    font-family: "Poppins";
+    color: #333;
+}
+#head-logo{
+    width: 50px;
+    height: 50px;
+}
+header{
+    position: static;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    border-bottom: 1px solid #f2f2f2;
+}
+p, tr{
+    font-weight: 200;
+}
+#menu{
+    margin-top: 15px;
+}
+#menu a{
+    margin-left: 30px;
+}
+a {
+    text-decoration: none;
+}
+#header-one{
+    font-size: 10px;
+    text-align: center;
+    align-content: space-between;
+}
+#header-email{
+    margin-right: 100px;
+}
+#header-phone{
+    margin-left: 400px; 
+}
+/* Intro Section */
+#intro{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    background-color: #ff914d;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 50px;
+    color: #fff;
+    margin-top: 10px;
+}
+#intro-one{
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    background-color: beige;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#intro-one h1{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: dancing script;
+    padding: 5px;
+    margin: 0;
+}
+#intro-one p, h5{
+    font-weight: 200;
+    margin: 0;    
+}
+#photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-color: #ff914d;
+    margin-top: 10px;
+}
+hr{
+    width: 200px;
+    background-color:  #ff914d;
+    height: 1px;
+    border: none;
+}
+div form{    
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;                 
+}
+form input, textarea{
+    font-weight: 200;
+    font-size: 16px;
+    margin: 10px;
+    width: 40%;
+    border: #ff914d solid 1px;
+    border-radius: 5px;
+    color: #ff914d;
+    height: 40px;
+    text-align: center;            
+}
+div form span{
+    display: flex;
+    font-size: 16px;
+      
+}
+input[type=radio]{
+    margin: 0px 50px;
+    height: 30px;
+    width: 50px;
+    border: #ff914d;
+}
+img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+section{
+    width: auto;
+    text-align: justify;
+}
+section h3{
+    text-align: center;
+}
+#about-me{
+       margin: 20px 100px;
+}
+#services{
+    background-color: beige;
+    padding: 30px 0;
+       
+}
+div h3{
+    color: #ff914d;
+    /* padding: 50px 0px;  */
+}
+#my-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 30px; 
+    padding-top: 30px;   
+}
+#footer-form{
+    background-color: beige;
+    padding-top: 20px;
+}
+#footer{
+    text-align: center;
+}
